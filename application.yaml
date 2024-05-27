@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ShwetaSingh1980/test11
+    repoURL: https://github.com/ShwetaSingh1980/test11.git
     targetRevision: HEAD
     path: dev
   destination:
