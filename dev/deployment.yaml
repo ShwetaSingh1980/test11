@@ -13,9 +13,9 @@ spec:
         app: httpd
     spec:
       imagePullSecrets:
-        - name: my-gitlab-registry-secret
+        - name: my-gitlab-registry-sec
       containers:
         - name: httpd
-          image: registry.gitlab.com/review11/ema-k8s-gitops/frontend:latest  
+          image: registry.gitlab.com/review11/ema-k8s-gitops/httpd:latest  
           ports:
             - containerPort: 80
